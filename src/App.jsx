@@ -1,3 +1,5 @@
+import heroPhoto from '../PHOTO/IMG_8909 (1).jpg';
+
 const skills = {
   'Programming Languages': ['C', 'Java', 'Python'],
   Technologies: ['DBMS', 'Operating Systems', 'Web Development'],
@@ -120,8 +122,9 @@ function App() {
             <span className="eyebrow">BTech Computer Science Student</span>
             <h1>Hi, I&apos;m Swathy Umendran</h1>
             <p className="hero-subtitle">
-              Aspiring software developer focused on building practical,
-              user-friendly applications that solve real-world problems.
+              Aspiring software developer with an interest in building
+              practical, user-focused applications that solve real-world
+              problems.
             </p>
             <p className="hero-text">
               I enjoy building real-world applications and solving problems
@@ -138,6 +141,9 @@ function App() {
           </div>
 
           <div className="hero-panel">
+            <div className="hero-photo-frame">
+              <img className="hero-photo" src={heroPhoto} alt="Swathy Umendran" />
+            </div>
             <div className="hero-badge">Open to Opportunities</div>
             <div className="stat-grid">
               <article>
@@ -161,7 +167,7 @@ function App() {
         <section id="about" className="section">
           <div className="section-heading">
             <span className="section-tag">About Me</span>
-            <h2>Building software with curiosity and purpose.</h2>
+            <h2>Passionate about software development and continuous learning.</h2>
           </div>
           <div className="about-grid">
             <article className="content-card">
@@ -186,7 +192,7 @@ function App() {
         <section id="skills" className="section">
           <div className="section-heading">
             <span className="section-tag">Skills</span>
-            <h2>Tools and technologies I&apos;m growing with.</h2>
+            <h2>Technical skills and tools I use in development.</h2>
           </div>
           <div className="skills-grid">
             {Object.entries(skills).map(([category, items]) => (
@@ -207,7 +213,7 @@ function App() {
         <section id="projects" className="section">
           <div className="section-heading">
             <span className="section-tag">Projects</span>
-            <h2>Selected work that reflects my approach to product building.</h2>
+            <h2>Projects that demonstrate my technical skills and experience.</h2>
           </div>
           <div className="projects-grid">
             {projects.map((project) => (
@@ -256,7 +262,7 @@ function App() {
         <section id="certificates" className="section">
           <div className="section-heading">
             <span className="section-tag">Certificates</span>
-            <h2>Learning milestones and experiences that shaped my growth.</h2>
+            <h2>Certifications and achievements that support my learning journey.</h2>
           </div>
           <div className="certificates-grid">
             {certificates.map((certificate) => (
@@ -280,7 +286,7 @@ function App() {
         <section id="contact" className="section">
           <div className="section-heading">
             <span className="section-tag">Contact</span>
-            <h2>Let&apos;s connect and build something meaningful.</h2>
+            <h2>Get in touch for opportunities and collaboration.</h2>
           </div>
           <div className="contact-card">
             {contactLinks.map((item) => (
