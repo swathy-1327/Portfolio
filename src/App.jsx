@@ -24,22 +24,22 @@ const projects = [
       'Real-time buyer-seller chat',
       'Admin dashboard for moderation',
     ],
-    github: 'https://github.com/swathy-1327/DERN.git',
+    github: 'https://github.com/swathy-1327/campusloop.git',
   },
   {
-    title: 'BidVerse',
+    title: 'DERN',
     highlight: 'Featured Project',
     description:
-      'An online auction platform where users can bid on products in real time through a role-based marketplace experience.',
-    stack: ['Java (Swing)', 'Spring Boot'],
+      'A full-stack web application project showcased through my GitHub repository.',
+    stack: ['Web Development', 'Database', 'Backend'],
     features: [
-      'User roles for admin, seller, and bidder',
-      'Product listing and bidding system',
-      'Real-time bidding process',
-      'Seller approval for the highest bidder',
-      'QR-based payment simulation',
-      'Auction status management',
+      'Full-stack application development',
+      'Frontend and backend integration',
+      'Database-driven functionality',
+      'User-focused workflow design',
+      'Project implementation and deployment practice',
     ],
+    github: 'https://github.com/swathy-1327/DERN.git',
   },
 ];
 
