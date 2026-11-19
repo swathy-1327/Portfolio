@@ -105,6 +105,30 @@ const projects = [
     ],
     github: 'https://github.com/swathy-1327/DERN.git',
   },
+  {
+    title: 'Ormify',
+    highlight: 'Featured Project',
+    description:
+      'An AI-powered learning platform that helps students organize their study materials, process documents, and track their learning progress.',
+    stack: [
+      'Next.js',
+      'React',
+      'Tailwind CSS',
+      'Flask',
+      'PyMuPDF',
+      'ChromaDB',
+      'Sentence Transformers',
+      'Supabase',
+    ],
+    features: [
+      'Document processing and PDF text extraction',
+      'AI-powered document understanding',
+      'Semantic search using vector embeddings',
+      'Learning material organization',
+      'Backend integration for document processing',
+    ],
+    github: 'https://github.com/SachinRajesh22/Ormify',
+  },
 ];
 
 const certificates = [
