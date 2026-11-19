@@ -220,7 +220,7 @@ function App() {
               </article>
 
               <article>
-                <strong>2</strong>
+                <strong>4</strong>
                 <span>Featured Projects</span>
               </article>
 
