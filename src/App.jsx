@@ -1,9 +1,51 @@
-import heroPhoto from '../PHOTO/IMG_8909 (1).jpg';
+
 
 const skills = {
-  'Programming Languages': ['C', 'Java', 'Python'],
-  Technologies: ['DBMS', 'Operating Systems', 'Web Development'],
-  Tools: ['GitHub', 'VS Code', 'IntelliJ IDEA'],
+  Languages: [
+    'Java',
+    'Python',
+    'C',
+    'JavaScript',
+    'TypeScript',
+    'HTML',
+    'CSS',
+  ],
+  Frameworks: [
+    'Spring Boot',
+    'Spring Security',
+    'Flask',
+    'FastAPI',
+    'Node.js',
+    'Express',
+    'React',
+  ],
+  Databases: [
+    'MySQL',
+    'PostgreSQL',
+    'MongoDB',
+    'SQLite',
+    'Firebase',
+  ],
+  'Developer Tools': [
+    'Git',
+    'GitHub',
+    'GitHub Actions',
+    'Docker',
+    'Postman',
+    'IntelliJ IDEA',
+    'VS Code',
+  ],
+  'Core Concepts': [
+    'Data Structures and Algorithms',
+    'OOP',
+    'DBMS',
+    'Operating Systems',
+    'Computer Networks',
+    'REST APIs',
+    'JWT',
+    'RBAC',
+    'WebSockets',
+  ],
 };
 
 const projects = [
@@ -51,28 +93,10 @@ const certificates = [
     file: 'Certificate of Participation - Java & Spring Boot Backend Development Workshop.pdf',
   },
   {
-    title: 'IEEE MEC Conference',
-    issuer: 'IEEE',
-    type: 'Image',
-    file: 'ieee mec conf.jpeg',
-  },
-  {
     title: 'JYESTA Internship Certification',
     issuer: 'JYESTA',
     type: 'PDF',
     file: 'JYESTA internship certification.pdf',
-  },
-  {
-    title: 'Petrichor 26 Palakkad',
-    issuer: 'Event Certificate',
-    type: 'Image',
-    file: 'petrichor26 palakad.jpg',
-  },
-  {
-    title: 'TinkerHub Certificate',
-    issuer: 'TinkerHub',
-    type: 'PDF',
-    file: 'tinkerhub.pdf',
   },
 ];
 
@@ -141,22 +165,22 @@ function App() {
           </div>
 
           <div className="hero-panel">
-            <div className="hero-photo-frame">
-              <img className="hero-photo" src={heroPhoto} alt="Swathy Umendran" />
-            </div>
             <div className="hero-badge">Open to Opportunities</div>
+
             <div className="stat-grid">
+              <article>
+                 <strong>9.87</strong>
+                 <span>Current CGPA</span>
+              </article>
+
               <article>
                 <strong>2</strong>
                 <span>Featured Projects</span>
               </article>
+
               <article>
-                <strong>3</strong>
-                <span>Languages</span>
-              </article>
-              <article>
-                <strong>3</strong>
-                <span>Core Tech Areas</span>
+                <strong>7</strong>
+                <span>Programming & Web Languages</span>
               </article>
             </div>
           </div>
@@ -172,10 +196,10 @@ function App() {
           <div className="about-grid">
             <article className="content-card">
               <p>
-                I am a BTech Computer Science Engineering student passionate
-                about building software solutions and exploring web development.
-                I enjoy solving problems and creating applications that have
-                real-world impact.
+                I am a Computer Science Engineering student at Government
+                Model Engineering College, Thrikkakara, with a current CGPA
+                of 9.87. I am passionate about software development,
+                problem-solving, and building practical applications.
               </p>
             </article>
             <article className="content-card">
