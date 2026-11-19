@@ -69,6 +69,28 @@ const projects = [
     github: 'https://github.com/swathy-1327/campusloop.git',
   },
   {
+    title: 'Brightloop',
+    highlight: 'Hackathon Project',
+    description:
+      'A subscription management system developed for the Odoo x Make-A-Ton 9.0 Kochi Hackathon 2026, supporting subscription lifecycles, recurring billing, invoice management, and revenue tracking.',
+    stack: [
+      'React',
+      'Node.js',
+      'Express',
+      'SQLite',
+      'JWT',
+    ],
+    features: [
+      'Subscription creation and lifecycle management',
+      'Recurring billing and automated invoice generation',
+      'Invoice management with confirmation and cancellation',
+      'Subscription status tracking and history',
+      'Role-based access control',
+      'REST API integration between frontend and backend',
+    ],
+    github: 'https://github.com/SachinRajesh22/Brightloop',
+  },
+  {
     title: 'DERN',
     highlight: 'Featured Project',
     description:
