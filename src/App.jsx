@@ -133,6 +133,12 @@ const projects = [
 
 const certificates = [
   {
+    title: 'Engineering Analyst Internship',
+    issuer: 'Accendon Technologies Pvt Ltd',
+    type: 'PDF',
+    file: 'Exp Certificate _ Swathy-internship-accendon.pdf',
+  },
+  {
     title: 'Java & Spring Boot Backend Development Workshop',
     issuer: 'Certificate of Participation',
     type: 'PDF',
@@ -180,6 +186,7 @@ function App() {
           <div className="brand">Swathy Umendran</div>
           <div className="nav-links">
             <a href="#about">About</a>
+            <a href="#experience">Experience</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#certificates">Certificates</a>
@@ -258,7 +265,26 @@ function App() {
             </article>
           </div>
         </section>
+        <section id="experience" className="section">
+          <div className="section-heading">
+            <span className="section-tag">Experience</span>
+            <h2>Professional experience and industry exposure.</h2>
+          </div>
 
+          <div className="about-grid">
+            <article className="content-card">
+              <span className="project-chip">Internship</span>
+              <h3>Engineering Analyst Intern</h3>
+              <p><strong>Accendon Technologies Pvt Ltd</strong></p>
+              <p>Kochi, Kerala | June 2026 – July 2026</p>
+              <p>
+                Completed a one-month internship as an Engineering Analyst Intern,
+                gaining exposure to professional engineering workflows and
+                contributing to the team during the internship.
+              </p>
+            </article>
+          </div>
+        </section>
         <section id="skills" className="section">
           <div className="section-heading">
             <span className="section-tag">Skills</span>
